@@ -60,3 +60,20 @@ body {
                 0 0  0 2px rgb(255,255,255),
                 0.3em 0.3em 1em rgba(0,0,0,0.3);
 }
+
+/* estilos menu */
+
+.nav li ul{
+    display: none;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    
+}
+
+.nav li:hover > ul{
+    display: block;
+    position: relative;
+}
